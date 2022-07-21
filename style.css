@@ -60,15 +60,13 @@ header .localisation-search input {
 .fonctionnement {
   padding: 10px;
 }
-
-.fonct-h2 {
+.fonctionnement .fonct-h2 {
   font-size: 20px;
   margin-top: 30px;
   padding: 10px;
   font-weight: bold;
 }
-
-.fonct {
+.fonctionnement .fonct {
   padding: 10px;
   margin: 10px;
   background-color: rgb(246, 246, 246);
@@ -78,50 +76,41 @@ header .localisation-search input {
   justify-content: center;
   align-items: center;
 }
-
-.fonct i {
+.fonctionnement .fonct i {
   margin-right: 10px;
 }
 
 .restaurants {
   background-color: rgb(246, 246, 246);
+  padding-bottom: 30px;
 }
-
-.resto {
+.restaurants .resto {
   font-size: 20px;
   margin-top: 30px;
   padding: 10px;
   font-weight: bold;
   padding-top: 50px;
 }
-
-.r-card img {
-  object-fit: cover;
-  width: 100%;
-  height: 200px;
-  border-radius: 20px 20px 0 0;
-}
-
-.r-card {
+.restaurants .r-card {
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 60px;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
 }
-
-.r-h3 {
-  font-weight: bold;
+.restaurants .r-card img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
 }
-
-.rhp {
+.restaurants .r-card .rhp {
   padding: 20px;
   line-height: 20px;
   font-size: 20px;
 }
-
-.restaurants {
-  padding-bottom: 30px;
+.restaurants .r-card .rhp .r-h3 {
+  font-weight: bold;
 }
 
 footer {
