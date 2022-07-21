@@ -57,16 +57,16 @@ header .localisation-search input {
   /*faire dégradé de couleur et box-shadow, refaire la pos et la taille*/
 }
 
-.fonctionnement {
+.f {
   padding: 10px;
 }
-.fonctionnement .fonct-h2 {
+.f h2 {
   font-size: 20px;
   margin-top: 30px;
   padding: 10px;
   font-weight: bold;
 }
-.fonctionnement .fonct {
+.f .fonct {
   padding: 10px;
   margin: 10px;
   background-color: rgb(246, 246, 246);
@@ -76,8 +76,47 @@ header .localisation-search input {
   justify-content: center;
   align-items: center;
 }
-.fonctionnement .fonct i {
+.f .fonct i {
   margin-right: 10px;
+}
+
+/*
+.fonctionnement {
+    padding: 10px;
+}
+
+.fonct-h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.fonct {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(246, 246, 246);
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fonct i {
+    margin-right: 10px;
+}
+*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
 }
 
 .restaurants {
@@ -131,6 +170,6 @@ footer i {
 }
 
 /*----------------------------------------------*/
-/*Others phone*/
+/*Page phone*/
 
 /*# sourceMappingURL=style.css.map */
