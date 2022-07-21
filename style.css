@@ -10,7 +10,6 @@ header img {
   margin-bottom: 20px;
   /*mettre un box-shadox bottom*/
 }
-
 header .localisation-search {
   display: flex;
   flex-direction: row;
@@ -19,13 +18,11 @@ header .localisation-search {
   background-color: rgb(225, 225, 225);
   height: 40px;
 }
-
-.localisation-search i {
+header .localisation-search i {
   margin-right: 5px;
   color: rgb(53, 53, 53);
 }
-
-.localisation-search input {
+header .localisation-search input {
   color: rgb(53, 53, 53);
   background-color: rgb(225, 225, 225);
   border: none;
@@ -41,19 +38,16 @@ header .localisation-search {
   align-items: center;
   justify-content: center;
 }
-
 .debut h2 {
   margin-top: 30px;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
-
 .debut .reserved-para {
   text-align: center;
   color: rgb(53, 53, 53);
 }
-
 .debut .reserved-btn {
   border-radius: 30px;
   background-color: rgb(169, 93, 219);
@@ -134,19 +128,16 @@ footer {
   background-color: rgb(53, 53, 53);
   color: white;
 }
-
 footer img {
   padding: 20px 10px 10px 10px;
   width: 40%;
 }
-
-.fo-div {
+footer .fo-div {
   padding: 10px;
   line-height: 22px;
   font-size: 18px;
 }
-
-.fo-para i {
+footer i {
   margin-right: 10px;
 }
 
