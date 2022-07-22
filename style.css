@@ -80,33 +80,6 @@ header .localisation-search input {
   margin-right: 10px;
 }
 
-/*
-.fonctionnement {
-    padding: 10px;
-}
-
-.fonct-h2 {
-    font-size: 20px;
-    margin-top: 30px;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.fonct {
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(246, 246, 246);
-    height: 40px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.fonct i {
-    margin-right: 10px;
-}
-*/
 a {
   text-decoration: none;
 }
@@ -171,5 +144,47 @@ footer i {
 
 /*----------------------------------------------*/
 /*Page phone*/
+.header-page {
+  height: 70px;
+}
+.header-page .h-top {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+.header-page .h-top i {
+  background-color: white;
+  padding: 20px;
+}
+.header-page .h-top img {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.img-top {
+  margin: none;
+  top: -20px;
+  left: 0%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.m-page {
+  position: relative;
+  padding: 20px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 50px 50px 0 0;
+  top: -50px;
+}
+.m-page .h2-page {
+  font-weight: bold;
+  font-size: 30px;
+}
+.m-page .sect-page .h3-page {
+  color: grey;
+  font-size: 20px;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
