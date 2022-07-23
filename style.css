@@ -116,6 +116,20 @@ a:visited {
   height: 200px;
   border-radius: 20px 20px 0 0;
 }
+.restaurants .r-card .r-like {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.restaurants .r-card .r-like i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.restaurants .r-card .r-like i:hover {
+  color: blueviolet;
+}
 .restaurants .r-card .rhp {
   padding: 20px;
   line-height: 20px;
@@ -176,15 +190,52 @@ footer i {
   background-color: rgb(246, 246, 246);
   border-radius: 50px 50px 0 0;
   top: -50px;
+  margin-bottom: none;
 }
 .m-page .h2-page {
   font-weight: bold;
   font-size: 30px;
 }
+.m-page .sect-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .m-page .sect-page .h3-page {
+  margin-top: 20px;
   color: grey;
   font-size: 20px;
   padding: 10px;
+}
+.m-page .sect-page .card-page {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  line-height: 18px;
+}
+.m-page .sect-page .card-page .h4-page {
+  font-weight: bold;
+}
+.m-page .sect-page .card-page .para-page {
+  display: flex;
+  justify-content: space-between;
+}
+.m-page .command-btn {
+  border-radius: 30px;
+  background-color: rgb(169, 93, 219);
+  border: none;
+  height: 50px;
+  width: 100px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.m-page .btn-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
