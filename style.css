@@ -60,7 +60,7 @@ header .localisation-search input {
 }
 .debut .reserved-btn {
   border-radius: 30px;
-  background-color: rgb(169, 93, 219);
+  background: linear-gradient(0deg, rgb(147, 86, 220) 28%, rgb(255, 121, 218) 89%);
   border: none;
   height: 40px;
   color: white;
@@ -120,6 +120,17 @@ a:visited {
   margin-bottom: 60px;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
+}
+.restaurants .r-card .new {
+  position: relative;
+  top: 60px;
+  left: 65%;
+  width: 20%;
+  background-color: #99E2D0;
+  color: green;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
 }
 .restaurants .r-card img {
   object-fit: cover;
@@ -279,7 +290,7 @@ footer a:active {
 }
 .m-page .command-btn {
   border-radius: 30px;
-  background-color: rgb(169, 93, 219);
+  background: linear-gradient(0deg, rgb(147, 86, 220) 28%, rgb(255, 121, 218) 89%);
   border: none;
   height: 50px;
   width: 100px;
