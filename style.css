@@ -222,6 +222,16 @@ footer a:active {
 }
 /*----------------------------------------------*/
 /*Home desktop*/
+@media only screen and (min-width: 1024px) {
+  .header img {
+    height: 80px;
+  }
+  .resto-all {
+    position: relative;
+    left: 2%;
+    right: 2%;
+  }
+}
 /*----------------------------------------------*/
 /*Page phone*/
 .header-page {
