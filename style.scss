@@ -42,8 +42,12 @@ header {
             color: rgb(53, 53, 53);
             background-color: rgb(225, 225, 225);
             border: none;
-            width: 100px;
+            width: 40%;
             font-size: 14px;
+            /*a corriger*/
+            &[placeholder] {
+                border-color: grey;
+            }
         }
     }
 }
@@ -118,21 +122,23 @@ a {
     padding-bottom: 30px;
     .resto {
         font-size: 20px;
-        margin-top: 30px;
+        margin-top: 10px;
         padding: 10px;
         font-weight: bold;
-        padding-top: 50px;
+        padding-top: 20px;
+        margin-bottom: 10px;
     }
     .r-card {
+        position: relative;
         margin-right: 10px;
         margin-left: 10px;
         margin-bottom: 60px;
         background-color: rgb(255, 255, 255);
         border-radius: 20px;
         .new {
-            position: relative;
-            top: 60px;
+            position: absolute;
             left: 65%;
+            top: 20px;
             width: 20%;
             background-color: $ctert;
             color: green;
@@ -150,6 +156,20 @@ a {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            .heart-regular {
+                display: block;
+                &:hover {
+                    display: none;
+                }
+            }
+            /*a corriger*/
+            .heart-solid {
+                display: none;
+                &:hover {
+                    display: block;
+                    color: purple;
+                }
+            }
             i {
                 display: flex;
                 align-items: center;
@@ -171,17 +191,20 @@ a {
     }
 }
 
-footer {
+.footer {
     background-color: rgb(53, 53, 53);
     color: white;
-    img {
-        padding: 20px 10px 10px 10px;
+    padding: 20px;
+    h2 {
         width: 40%;
         font-family: $plt;
         color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
     }
     .fo-div {
-        padding: 10px;
         line-height: 22px;
         font-size: 18px;
     }

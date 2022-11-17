@@ -34,8 +34,12 @@ header .localisation-search input {
   color: rgb(53, 53, 53);
   background-color: rgb(225, 225, 225);
   border: none;
-  width: 100px;
+  width: 40%;
   font-size: 14px;
+  /*a corriger*/
+}
+header .localisation-search input[placeholder] {
+  border-color: grey;
 }
 
 .debut {
@@ -109,12 +113,14 @@ a:visited {
 }
 .restaurants .resto {
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 10px;
   font-weight: bold;
-  padding-top: 50px;
+  padding-top: 20px;
+  margin-bottom: 10px;
 }
 .restaurants .r-card {
+  position: relative;
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 60px;
@@ -122,9 +128,9 @@ a:visited {
   border-radius: 20px;
 }
 .restaurants .r-card .new {
-  position: relative;
-  top: 60px;
+  position: absolute;
   left: 65%;
+  top: 20px;
   width: 20%;
   background-color: #99E2D0;
   color: green;
@@ -142,6 +148,20 @@ a:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /*a corriger*/
+}
+.restaurants .r-card .r-like .heart-regular {
+  display: block;
+}
+.restaurants .r-card .r-like .heart-regular:hover {
+  display: none;
+}
+.restaurants .r-card .r-like .heart-solid {
+  display: none;
+}
+.restaurants .r-card .r-like .heart-solid:hover {
+  display: block;
+  color: purple;
 }
 .restaurants .r-card .r-like i {
   display: flex;
@@ -161,35 +181,38 @@ a:visited {
   font-weight: bold;
 }
 
-footer {
+.footer {
   background-color: rgb(53, 53, 53);
   color: white;
+  padding: 20px;
 }
-footer img {
-  padding: 20px 10px 10px 10px;
+.footer h2 {
   width: 40%;
   font-family: Shrikhand;
   color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
 }
-footer .fo-div {
-  padding: 10px;
+.footer .fo-div {
   line-height: 22px;
   font-size: 18px;
 }
-footer i {
+.footer i {
   margin-right: 10px;
 }
-footer a {
+.footer a {
   color: white;
   text-decoration: none;
 }
-footer a:hover {
+.footer a:hover {
   cursor: pointer;
 }
-footer a:visited {
+.footer a:visited {
   color: white;
 }
-footer a:active {
+.footer a:active {
   color: white;
 }
 
