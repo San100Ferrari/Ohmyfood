@@ -31,15 +31,12 @@ header .localisation-search i {
   color: rgb(53, 53, 53);
 }
 header .localisation-search input {
+  display: flex;
+  justify-content: center;
   color: rgb(53, 53, 53);
   background-color: rgb(225, 225, 225);
-  border: none;
-  width: 40%;
+  width: 30%;
   font-size: 14px;
-  /*a corriger*/
-}
-header .localisation-search input[placeholder] {
-  border-color: grey;
 }
 
 .debut {
@@ -88,10 +85,20 @@ header .localisation-search input[placeholder] {
   height: 40px;
   border-radius: 20px;
   display: flex;
+  align-items: center;
+}
+.f .fonct .font-all {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.f .fonct i {
+.f .fonct .i-fonct {
+  background-color: #9356DC;
+  border-radius: 200px;
+  font-size: 10px;
+  padding: 7px;
+  color: white;
+  position: relative;
   margin-right: 10px;
 }
 
@@ -148,29 +155,22 @@ a:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*a corriger*/
-}
-.restaurants .r-card .r-like .heart-regular {
-  display: block;
-}
-.restaurants .r-card .r-like .heart-regular:hover {
-  display: none;
-}
-.restaurants .r-card .r-like .heart-solid {
-  display: none;
-}
-.restaurants .r-card .r-like .heart-solid:hover {
-  display: block;
-  color: purple;
 }
 .restaurants .r-card .r-like i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 20px;
+  padding: 20px;
 }
-.restaurants .r-card .r-like i:hover {
-  color: blueviolet;
+.restaurants .r-card .r-like i .spandb {
+  display: block;
+}
+.restaurants .r-card .r-like i .spandb:hover {
+  display: none;
+}
+.restaurants .r-card .r-like i .spandn {
+  display: none;
+}
+.restaurants .r-card .r-like i .spandn:hover {
+  display: block;
+  color: #9356DC;
 }
 .restaurants .r-card .rhp {
   padding: 20px;

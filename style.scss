@@ -39,15 +39,12 @@ header {
             color: rgb(53, 53, 53)
         }
         input {
+            display: flex;
+            justify-content: center;
             color: rgb(53, 53, 53);
             background-color: rgb(225, 225, 225);
-            border: none;
-            width: 40%;
+            width: 30%;
             font-size: 14px;
-            /*a corriger*/
-            &[placeholder] {
-                border-color: grey;
-            }
         }
     }
 }
@@ -97,9 +94,19 @@ header {
         height: 40px;
         border-radius: 20px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        i {
+        .font-all {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .i-fonct {
+            background-color: $cprimary;
+            border-radius: 200px;
+            font-size: 10px;
+            padding: 7px;
+            color: white;
+            position: relative;
             margin-right: 10px;
         }
     }
@@ -156,27 +163,20 @@ a {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            .heart-regular {
-                display: block;
-                &:hover {
-                    display: none;
-                }
-            }
-            /*a corriger*/
-            .heart-solid {
-                display: none;
-                &:hover {
-                    display: block;
-                    color: purple;
-                }
-            }
             i {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-right: 20px;
-                &:hover {
-                    color: blueviolet;
+                padding: 20px;
+                .spandb {
+                    display: block;
+                    &:hover {
+                        display: none;
+                    }
+                }
+                .spandn {
+                    display: none;
+                    &:hover {
+                        display: block;
+                        color: $cprimary;
+                    }
                 }
             }
         }
