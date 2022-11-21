@@ -1,0 +1,36 @@
+$cred: rgb(184, 94, 94);
+$plt: Shrikhand;
+$ptext:Roboto;
+$cprimary:#9356DC;
+$csecond:#FF79DA;
+$ctert:#99E2D0;
+h2 {
+    font-family: $plt;
+}
+
+p {
+    font-family: $ptext;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: black;
+    }
+    &:visited {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    $h2768: 30px;
+    h2 {
+        font-size: $h2768;
+    }
+    $p768: 20px;
+    p {
+        font-size: $p768;
+    }
+}

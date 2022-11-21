@@ -1,19 +1,6 @@
 /*----------------------------------------------*/
 
-$cred: rgb(184, 94, 94);
-$plt: Shrikhand;
-$ptext:Roboto;
-$cprimary:#9356DC;
-$csecond:#FF79DA;
-$ctert:#99E2D0;
-h2 {
-    font-family: $plt;
-}
-
-p {
-    font-family: $ptext;
-}
-
+@import "var.scss";
 
 /*Home phone*/
 
@@ -74,7 +61,6 @@ header {
         border: none;
         height: 40px;
         color: white;
-        /*faire dégradé de couleur et box-shadow, refaire la pos et la taille*/
     }
 }
 
@@ -95,10 +81,12 @@ header {
         border-radius: 20px;
         display: flex;
         align-items: center;
-        .font-all {
+        justify-content: center;
+        .fonct-all {
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
         }
         .i-fonct {
             background-color: $cprimary;
@@ -107,20 +95,10 @@ header {
             padding: 7px;
             color: white;
             position: relative;
-            margin-right: 10px;
         }
-    }
-}
-
-a {
-    text-decoration: none;
-    &:hover {
-        text-decoration: none;
-        color: black;
-    }
-    &:visited {
-        text-decoration: none;
-        color: black;
+        i {
+            margin-right: 20px;
+        }
     }
 }
 
@@ -252,6 +230,11 @@ a {
         width: 100%;
     }
     .footer {
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: 50px;
+        }
         display: flex;
         flex-direction: row;
         justify-content: space-around;
