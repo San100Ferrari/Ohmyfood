@@ -1,6 +1,5 @@
-/*----------------------------------------------*/
-
 @import "var.scss";
+@import "style2.scss";
 
 /*Home phone*/
 
@@ -12,7 +11,6 @@ header {
         right: 25%;
         margin-top: 20px;
         margin-bottom: 20px;
-        /*mettre un box-shadox bottom*/
     }
     .localisation-search {
         display: flex;
@@ -32,6 +30,7 @@ header {
             background-color: rgb(225, 225, 225);
             width: 30%;
             font-size: 14px;
+            font-family: $ptext;
         }
     }
 }
@@ -45,7 +44,7 @@ header {
     justify-content: center;
     h2 {
         margin-top: 30px;
-        font-size: 30px;
+        font-size: $h30;
         font-weight: bold;
         text-align: center;
         font-family: $plt;
@@ -61,52 +60,60 @@ header {
         border: none;
         height: 40px;
         color: white;
+        font-family: $ptext;
     }
 }
 
 .f {
     padding: 10px;
     h2 {
-        font-size: 20px;
+        font-size: $h20;
         margin-top: 30px;
         padding: 10px;
         font-weight: bold;
         font-family: $plt;
     }
     .fonct {
-        padding: 10px;
+        padding: 10px 22% 10px 22%;
         margin: 10px;
         background-color: rgb(246, 246, 246);
         height: 40px;
         border-radius: 20px;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        font-family: $ptext;
+        &:hover {
+            background-color: lightgrey;
+            i {
+                color: $cprimary;
+            }
+        }
         .fonct-all {
             display: flex;
-            justify-content: center;
+            flex-direction: row;
+            justify-content: space-around;
             align-items: center;
             width: 100%;
-        }
-        .i-fonct {
-            background-color: $cprimary;
-            border-radius: 200px;
-            font-size: 10px;
-            padding: 7px;
-            color: white;
-            position: relative;
-        }
-        i {
-            margin-right: 20px;
+            font-family: $ptext;
         }
     }
+}
+
+.i-fonct {
+    background-color: $cprimary;
+    border-radius: 200px;
+    font-size: 10px;
+    padding: 7px;
+    color: white;
+    position: absolute;
 }
 
 .restaurants {
     background-color: rgb(246, 246, 246);
     padding-bottom: 30px;
     .resto {
-        font-size: 20px;
+        font-size: $h20;
         margin-top: 10px;
         padding: 10px;
         font-weight: bold;
@@ -177,7 +184,7 @@ header {
         width: 40%;
         font-family: $plt;
         color: white;
-        font-size: 30px;
+        font-size: $h30;
         font-weight: bold;
         font-style: italic;
         margin-bottom: 10px;
@@ -196,10 +203,10 @@ header {
             cursor: pointer;
         }
         &:visited {
-            color: white;
+            color: $cprimary;
         }
         &:active {
-            color: white;
+            color: $csecond;
         }
     }
 }
@@ -211,8 +218,16 @@ header {
 /*Home tablets*/
 
 @media only screen and (min-width:768px) {
-    .fonct-h2 {
+    .f .fonct-h2 {
         text-align: center;
+        font-size: $h30;
+        font-family: $plt;
+    }
+    .f .fonct {
+        padding: 10px 30% 10px 30%;
+    }
+    .restaurants .resto {
+        font-size: $h30;
     }
     .resto {
         margin-bottom: 20px;
@@ -233,7 +248,7 @@ header {
         h2 {
             display: flex;
             align-items: center;
-            font-size: 50px;
+            font-size: $h60;
         }
         display: flex;
         flex-direction: row;
@@ -257,118 +272,5 @@ header {
         position: relative;
         left: 2%;
         right: 2%;
-    }
-}
-
-
-/*----------------------------------------------*/
-
-
-/*Page phone*/
-
-.header-page {
-    height: 70px;
-    .h-top {
-        display: flex;
-        align-items: center;
-        width: 250px;
-        i {
-            background-color: white;
-            padding: 20px;
-        }
-        img {
-            display: flex;
-            justify-content: center;
-            width: 60%;
-        }
-    }
-}
-
-.img-top {
-    margin: none;
-    top: -20px;
-    left: 0%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.m-page {
-    position: relative;
-    padding: 20px;
-    background-color: rgb(246, 246, 246);
-    border-radius: 50px 50px 0 0;
-    top: -50px;
-    margin-bottom: none;
-    .h2-page {
-        font-weight: bold;
-        font-size: 30px;
-    }
-    .sect-page {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        .h3-page {
-            margin-top: 20px;
-            color: grey;
-            font-size: 20px;
-            padding: 10px;
-        }
-        .card-page {
-            background-color: white;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding: 10px;
-            border-radius: 20px;
-            line-height: 18px;
-            ;
-            .h4-page {
-                font-weight: bold;
-            }
-            .para-page {
-                display: flex;
-                justify-content: space-between;
-            }
-        }
-    }
-    .command-btn {
-        border-radius: 30px;
-        background: linear-gradient(0deg, rgba(147, 86, 220, 1) 28%, rgba(255, 121, 218, 1) 89%);
-        border: none;
-        height: 50px;
-        width: 100px;
-        color: white;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    .btn-page {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-/*----------------------------------------------*/
-
-
-/*Page tablets*/
-
-@media only screen and (min-width:768px) {
-    .header-page {
-        height: 100px;
-        display: flex;
-        align-items: center;
-    }
-    .header-page img {
-        left: 80%;
-        right: 25%;
-    }
-    .img-top {
-        height: 300px;
-    }
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
     }
 }

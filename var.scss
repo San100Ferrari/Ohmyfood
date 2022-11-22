@@ -4,6 +4,12 @@ $ptext:Roboto;
 $cprimary:#9356DC;
 $csecond:#FF79DA;
 $ctert:#99E2D0;
+$h20:20px;
+$h30:30px;
+$h50:50px;
+$h60:60px;
+$p10:10px;
+$p20:20px;
 h2 {
     font-family: $plt;
 }
@@ -21,16 +27,5 @@ a {
     &:visited {
         text-decoration: none;
         color: black;
-    }
-}
-
-@media only screen and (min-width:768px) {
-    $h2768: 30px;
-    h2 {
-        font-size: $h2768;
-    }
-    $p768: 20px;
-    p {
-        font-size: $p768;
     }
 }

@@ -1,0 +1,150 @@
+@import "var.scss";
+
+/*Page phone*/
+
+.header-page {
+    height: 70px;
+    .h-top {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        i {
+            background-color: white;
+            padding: 20px;
+        }
+        img {
+            display: flex;
+            justify-content: center;
+            width: 60%;
+        }
+    }
+}
+
+.img-top {
+    margin: none;
+    top: -20px;
+    left: 0%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.m-page {
+    position: relative;
+    padding: 20px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 50px 50px 0 0;
+    top: -50px;
+    margin-bottom: none;
+    .h2-page {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .sect-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .h3-page {
+            margin-top: 20px;
+            color: grey;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .card-page {
+            background-color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            line-height: 18px;
+            ;
+            .h4-page {
+                font-weight: bold;
+            }
+            .para-page {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+    .command-btn {
+        border-radius: 30px;
+        background: linear-gradient(0deg, rgba(147, 86, 220, 1) 28%, rgba(255, 121, 218, 1) 89%);
+        border: none;
+        height: 50px;
+        width: 100px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .btn-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.footer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 20px;
+    h2 {
+        width: 40%;
+        font-family: $plt;
+        color: white;
+        font-size: $h30;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    .fo-div {
+        line-height: 22px;
+        font-size: 18px;
+    }
+    i {
+        margin-right: 10px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+            cursor: pointer;
+        }
+        &:visited {
+            color: $cprimary;
+        }
+        &:active {
+            color: $csecond;
+        }
+    }
+}
+
+
+/*----------------------------------------------*/
+
+
+/*Page tablets*/
+
+@media only screen and (min-width:768px) {
+    .header-page {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .header-page img {
+        left: 80%;
+        right: 25%;
+    }
+    .img-top {
+        height: 300px;
+    }
+    .footer {
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: $h60;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
