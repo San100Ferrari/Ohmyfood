@@ -56,3 +56,9 @@ corriger research
 - find a solution for police
 - & les size des polices
 - finir all responsive 
+
+23/11/2022
+- ARRANGER LES POLICES D'ECRITURES URGENT !!!!!!!!!
+- règler le problème du décalage de la page annexe entre le main et le footer URGENT !!!!!!
+- trouver une solution pour les hearts home
+- home research & agrandir les i

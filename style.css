@@ -73,34 +73,27 @@ a:visited {
   top: -50px;
   margin-bottom: none;
 }
+.m-page .titre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 .m-page .h2-page {
   font-weight: bold;
   font-size: 30px;
+  font-family: Shrikhand;
 }
-.m-page .sect-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.m-page .sect-page .h3-page {
+.m-page .h3-page {
   margin-top: 20px;
   color: grey;
   font-size: 20px;
   padding: 10px;
+  font-family: Shrikhand;
 }
-.m-page .sect-page .card-page {
-  background-color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 20px;
-  line-height: 18px;
-}
-.m-page .sect-page .card-page .h4-page {
-  font-weight: bold;
-}
-.m-page .sect-page .card-page .para-page {
+.m-page .sect-page {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 .m-page .command-btn {
@@ -117,6 +110,21 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.m-page .card-page {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  line-height: 18px;
+}
+.m-page .h4-page {
+  font-weight: bold;
+}
+.m-page .para-page {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
