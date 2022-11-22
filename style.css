@@ -262,7 +262,8 @@ header input {
   font-family: Roboto;
 }
 .f .fonct:hover {
-  background-color: lightgrey;
+  background-color: rgb(201, 203, 255);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .f .fonct:hover i {
   color: #9356DC;
@@ -398,6 +399,9 @@ header input {
   .f .fonct {
     padding: 10px 30% 10px 30%;
   }
+  .restaurants {
+    margin-top: 30px;
+  }
   .restaurants .resto {
     font-size: 30px;
   }
@@ -454,13 +458,44 @@ header input {
     width: 300px;
     font-size: 30px;
   }
+  .f .fonct-h2 {
+    font-size: 40px;
+  }
+  .f .fonct {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+  }
   .restaurants {
     margin-top: 50px;
   }
-  .resto-all {
+  .restaurants .resto {
+    font-size: 40px;
+    margin: 30px;
+  }
+  .restaurants .resto-all {
     position: relative;
     left: 2%;
     right: 2%;
+  }
+  .restaurants .r-h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .restaurants .r-para {
+    font-size: 20px;
+  }
+  .footer {
+    height: 150px;
+  }
+  .footer h2 {
+    font-size: 70px;
+  }
+  .footer .fo-para {
+    margin-bottom: 10px;
+  }
+  .footer .fo-div {
+    font-size: 30px;
   }
 }
 

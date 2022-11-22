@@ -55,4 +55,4 @@ corriger research
 22/11/2022
 - find a solution for police
 - & les size des polices
-- finir all responsive
+- finir all responsive 

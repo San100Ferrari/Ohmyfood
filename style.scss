@@ -84,7 +84,8 @@ header {
         justify-content: space-around;
         font-family: $ptext;
         &:hover {
-            background-color: lightgrey;
+            background-color: rgb(201, 203, 255);
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
             i {
                 color: $cprimary;
             }
@@ -226,6 +227,9 @@ header {
     .f .fonct {
         padding: 10px 30% 10px 30%;
     }
+    .restaurants {
+        margin-top: 30px;
+    }
     .restaurants .resto {
         font-size: $h30;
     }
@@ -291,12 +295,45 @@ header {
             font-size: $h30;
         }
     }
+    .f {
+        .fonct-h2 {
+            font-size: $h40;
+        }
+        .fonct {
+            font-size: $h30;
+            margin-bottom: 20px;
+            font-family: $ptext;
+        }
+    }
     .restaurants {
         margin-top: 50px;
+        .resto {
+            font-size: $h40;
+            margin: 30px;
+        }
+        .resto-all {
+            position: relative;
+            left: 2%;
+            right: 2%;
+        }
+        .r-h3 {
+            font-size: $h30;
+            margin-bottom: 5px;
+        }
+        .r-para {
+            font-size: $h20;
+        }
     }
-    .resto-all {
-        position: relative;
-        left: 2%;
-        right: 2%;
+    .footer {
+        height: 150px;
+        h2 {
+            font-size: $h70;
+        }
+        .fo-para {
+            margin-bottom: 10px;
+        }
+        .fo-div {
+            font-size: $h30;
+        }
     }
 }
