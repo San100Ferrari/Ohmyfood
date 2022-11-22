@@ -19,19 +19,19 @@ header {
         align-items: center;
         background-color: rgb(225, 225, 225);
         height: 40px;
-        i {
-            margin-right: 5px;
-            color: rgb(53, 53, 53)
-        }
-        input {
-            display: flex;
-            justify-content: center;
-            color: rgb(53, 53, 53);
-            background-color: rgb(225, 225, 225);
-            width: 30%;
-            font-size: 14px;
-            font-family: $ptext;
-        }
+    }
+    i {
+        margin-right: 5px;
+        color: rgb(53, 53, 53)
+    }
+    input {
+        display: flex;
+        justify-content: center;
+        color: rgb(53, 53, 53);
+        background-color: rgb(225, 225, 225);
+        width: 30%;
+        font-size: 14px;
+        font-family: $ptext;
     }
 }
 
@@ -267,6 +267,32 @@ header {
         img {
             height: 80px;
         }
+        .localisation-search {
+            height: 70px;
+            display: flex;
+            flex-direction: row;
+        }
+        .iplus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .debut {
+        .reserved {
+            font-size: $h50;
+        }
+        .reserved-para {
+            font-size: $h30;
+        }
+        .reserved-btn {
+            height: 70px;
+            width: 300px;
+            font-size: $h30;
+        }
+    }
+    .restaurants {
+        margin-top: 50px;
     }
     .resto-all {
         position: relative;

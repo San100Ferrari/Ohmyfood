@@ -197,11 +197,11 @@ header .localisation-search {
   background-color: rgb(225, 225, 225);
   height: 40px;
 }
-header .localisation-search i {
+header i {
   margin-right: 5px;
   color: rgb(53, 53, 53);
 }
-header .localisation-search input {
+header input {
   display: flex;
   justify-content: center;
   color: rgb(53, 53, 53);
@@ -432,6 +432,30 @@ header .localisation-search input {
 @media only screen and (min-width: 1024px) {
   .header img {
     height: 80px;
+  }
+  .header .localisation-search {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+  }
+  .header .iplus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .debut .reserved {
+    font-size: 50px;
+  }
+  .debut .reserved-para {
+    font-size: 30px;
+  }
+  .debut .reserved-btn {
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+  }
+  .restaurants {
+    margin-top: 50px;
   }
   .resto-all {
     position: relative;

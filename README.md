@@ -51,3 +51,8 @@ corriger research
 - faire le responsive de research
 - responsive footer
 - refaire toute l'organisation
+
+22/11/2022
+- find a solution for police
+- & les size des polices
+- finir all responsive
