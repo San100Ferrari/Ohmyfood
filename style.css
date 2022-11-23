@@ -78,10 +78,12 @@ a:visited {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  right: 2.5%;
+  left: 2.5%;
 }
 .m-page .h2-page {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   font-family: Shrikhand;
 }
 .m-page .h3-page {
@@ -177,6 +179,25 @@ a:visited {
   .img-top {
     height: 300px;
   }
+  .m-page .card-page {
+    height: 50px;
+  }
+  .m-page .h3-page {
+    font-size: 40px;
+  }
+  .m-page .h4-page {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  .m-page p {
+    font-size: 20px;
+    font-family: Roboto;
+  }
+  .m-page .command-btn {
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+  }
   .footer {
     display: flex;
     flex-direction: row;
@@ -186,6 +207,18 @@ a:visited {
     display: flex;
     align-items: center;
     font-size: 60px;
+  }
+}
+/*----------------------------------------------*/
+/*Page desktop*/
+@media only screen and (min-width: 1024px) {
+  .header-page .h-top {
+    display: flex;
+  }
+  .header-page .h-top img {
+    width: 400px;
+    object-fit: cover;
+    position: relative;
   }
 }
 /*Home phone*/

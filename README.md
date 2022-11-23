@@ -62,3 +62,8 @@ corriger research
 - règler le problème du décalage de la page annexe entre le main et le footer URGENT !!!!!!
 - trouver une solution pour les hearts home
 - home research & agrandir les i
+
+Mentorat :
+- demander pour les hearts
+- demander maquette ordis
+- 
