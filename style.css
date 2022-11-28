@@ -39,9 +39,6 @@ a:visited {
 }
 
 /*Page phone*/
-.header-page {
-  height: 70px;
-}
 .header-page .h-top {
   display: flex;
   align-items: center;
@@ -168,7 +165,6 @@ a:visited {
 /*Page tablets*/
 @media only screen and (min-width: 768px) {
   .header-page {
-    height: 100px;
     display: flex;
     align-items: center;
   }
@@ -178,9 +174,6 @@ a:visited {
   }
   .img-top {
     height: 300px;
-  }
-  .m-page .card-page {
-    height: 50px;
   }
   .m-page .h3-page {
     font-size: 40px;
@@ -371,6 +364,7 @@ header input {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: relative;
 }
 .restaurants .r-card .r-like i {
   padding: 20px;

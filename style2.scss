@@ -3,7 +3,6 @@
 /*Page phone*/
 
 .header-page {
-    height: 70px;
     .h-top {
         display: flex;
         align-items: center;
@@ -135,7 +134,6 @@
 
 @media only screen and (min-width:768px) {
     .header-page {
-        height: 100px;
         display: flex;
         align-items: center;
     }
@@ -147,9 +145,6 @@
         height: 300px;
     }
     .m-page {
-        .card-page {
-            height: 50px;
-        }
         .h3-page {
             font-size: $h40;
         }

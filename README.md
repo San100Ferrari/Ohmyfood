@@ -78,4 +78,4 @@ Mentorat :
 - posr sur r-like lrbt
 - heart solid pos absolute r0 + opacity 0
 puis en hover opa 1 et regular en opa0
-- cursor pointer sur btn
+- cursor pointer sur btn 
