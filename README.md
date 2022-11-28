@@ -67,3 +67,15 @@ Mentorat :
 - demander pour les hearts
 - demander maquette ordis
 - 
+
+- p liste fonct augmenté
+- div fonct i avec i et fonct avec posr, top changer les px
+- police roboto sans sérif
+- google font 
+- ne pas mettre de height dans les elements
+- font-size pour les i
+- posabsolute pour les card
+- posr sur r-like lrbt
+- heart solid pos absolute r0 + opacity 0
+puis en hover opa 1 et regular en opa0
+- cursor pointer sur btn

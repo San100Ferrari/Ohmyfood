@@ -165,6 +165,9 @@
             height: 70px;
             width: 150px;
             font-size: $h20;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
     .footer {
