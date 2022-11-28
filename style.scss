@@ -72,6 +72,7 @@ header {
         padding: 10px;
         font-weight: bold;
         font-family: $plt;
+        margin-bottom: 20px;
     }
     .fonct {
         padding: 10px 22% 10px 22%;
@@ -83,6 +84,8 @@ header {
         align-items: center;
         justify-content: space-around;
         font-family: $ptext;
+        position: relative;
+        top: -20px;
         &:hover {
             background-color: rgb(201, 203, 255);
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -99,15 +102,15 @@ header {
             font-family: $ptext;
         }
     }
-}
-
-.i-fonct {
-    background-color: $cprimary;
-    border-radius: 200px;
-    font-size: 10px;
-    padding: 7px;
-    color: white;
-    position: absolute;
+    .foncti {
+        z-index: 10;
+        background-color: $cprimary;
+        border-radius: 200px;
+        font-size: 10px;
+        padding: 7px;
+        color: white;
+        position: absolute;
+    }
 }
 
 .restaurants {

@@ -1,9 +1,9 @@
 h2 {
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
 }
 
 p {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -19,11 +19,11 @@ a:visited {
 }
 
 h2 {
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
 }
 
 p {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -81,14 +81,14 @@ a:visited {
 .m-page .h2-page {
   font-weight: bold;
   font-size: 50px;
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
 }
 .m-page .h3-page {
   margin-top: 20px;
   color: grey;
   font-size: 20px;
   padding: 10px;
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
 }
 .m-page .sect-page {
   display: flex;
@@ -133,7 +133,7 @@ a:visited {
 }
 .footer h2 {
   width: 40%;
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -184,7 +184,7 @@ a:visited {
   }
   .m-page p {
     font-size: 20px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
   }
   .m-page .command-btn {
     height: 70px;
@@ -245,7 +245,7 @@ header input {
   background-color: rgb(225, 225, 225);
   width: 30%;
   font-size: 14px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 .debut {
@@ -261,12 +261,12 @@ header input {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
 }
 .debut .reserved-para {
   text-align: center;
   color: rgb(53, 53, 53);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 .debut .reserved-btn {
   border-radius: 30px;
@@ -274,7 +274,7 @@ header input {
   border: none;
   height: 40px;
   color: white;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 .f {
@@ -285,7 +285,8 @@ header input {
   margin-top: 30px;
   padding: 10px;
   font-weight: bold;
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
+  margin-bottom: 20px;
 }
 .f .fonct {
   padding: 10px 22% 10px 22%;
@@ -296,7 +297,9 @@ header input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: -20px;
 }
 .f .fonct:hover {
   background-color: rgb(201, 203, 255);
@@ -311,10 +314,10 @@ header input {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
-
-.i-fonct {
+.f .foncti {
+  z-index: 10;
   background-color: #9356DC;
   border-radius: 200px;
   font-size: 10px;
@@ -398,7 +401,7 @@ header input {
 }
 .footer h2 {
   width: 40%;
-  font-family: Shrikhand;
+  font-family: "Shrikhand", sans-serif;
   color: white;
   font-size: 30px;
   font-weight: bold;
@@ -432,7 +435,7 @@ header input {
   .f .fonct-h2 {
     text-align: center;
     font-size: 30px;
-    font-family: Shrikhand;
+    font-family: "Shrikhand", sans-serif;
   }
   .f .fonct {
     padding: 10px 30% 10px 30%;
@@ -502,7 +505,7 @@ header input {
   .f .fonct {
     font-size: 30px;
     margin-bottom: 20px;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
   }
   .restaurants {
     margin-top: 50px;
