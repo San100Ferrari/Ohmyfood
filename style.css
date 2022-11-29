@@ -235,8 +235,8 @@ header .localisation-search {
   height: 40px;
 }
 header i {
-  margin-right: 5px;
   color: rgb(53, 53, 53);
+  font-size: 10px;
 }
 header input {
   display: flex;
@@ -246,6 +246,7 @@ header input {
   width: 30%;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  font-size: 10px;
 }
 
 .debut {
@@ -299,7 +300,10 @@ header input {
   justify-content: space-around;
   font-family: "Roboto", sans-serif;
   position: relative;
-  top: -20px;
+  top: -10px;
+}
+.f .fonct i {
+  margin-right: 10px;
 }
 .f .fonct:hover {
   background-color: rgb(201, 203, 255);
@@ -321,7 +325,7 @@ header input {
   background-color: #9356DC;
   border-radius: 200px;
   font-size: 10px;
-  padding: 7px;
+  padding: 15px;
   color: white;
   position: absolute;
 }
@@ -432,6 +436,12 @@ header input {
 /*----------------------------------------------*/
 /*Home tablets*/
 @media only screen and (min-width: 768px) {
+  .header .localisation-search input {
+    font-size: 15px;
+  }
+  .header .localisation-search i {
+    font-size: 15px;
+  }
   .f .fonct-h2 {
     text-align: center;
     font-size: 30px;
@@ -439,6 +449,9 @@ header input {
   }
   .f .fonct {
     padding: 10px 30% 10px 30%;
+  }
+  .f .foncti {
+    font-size: 15px;
   }
   .restaurants {
     margin-top: 30px;
@@ -488,6 +501,12 @@ header input {
     align-items: center;
     justify-content: center;
   }
+  .header .localisation-search input {
+    font-size: 20px;
+  }
+  .header .localisation-search i {
+    font-size: 20px;
+  }
   .debut .reserved {
     font-size: 50px;
   }
@@ -506,6 +525,9 @@ header input {
     font-size: 30px;
     margin-bottom: 20px;
     font-family: "Roboto", sans-serif;
+  }
+  .f .foncti {
+    font-size: 20px;
   }
   .restaurants {
     margin-top: 50px;

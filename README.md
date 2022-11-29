@@ -66,8 +66,8 @@ corriger research
 Mentorat :
 - demander pour les hearts
 - demander maquette ordis
-- 
 
+Mentorat 23/11/2022:
 - p liste fonct augmenté
 - div fonct i avec i et fonct avec posr, top changer les px
 - police roboto sans sérif
