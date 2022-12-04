@@ -79,3 +79,22 @@ Mentorat 23/11/2022:
 - heart solid pos absolute r0 + opacity 0
 puis en hover opa 1 et regular en opa0
 - cursor pointer sur btn 
+
+
+Mentorat du 30/11/2022: 
+- heart vide en absolute et right 0, enlever le i, et op0, puis hover 1 et inversement
+- corriger le responsive et la police, hearts, footer, animations
+
+
+To do 04/12/2022 :
+- hearts all
+- top -20 footer r
+- décalage des card dans sect annexe
+- test anim cards dans annexe
+- responsive
+- powerpoint + présentations
+- anim card dans annexe
+- upgrade les fcards
+- annexe : header center logo
+- vérif des font-size des i
+- enlever les heights pour un best responsive
