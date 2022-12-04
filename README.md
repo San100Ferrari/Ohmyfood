@@ -88,7 +88,7 @@ Mentorat du 30/11/2022:
 
 To do 04/12/2022 :
 - hearts all
-- top -20 footer r
+- top -20 footer r (voir sa plus tard)
 - décalage des card dans sect annexe
 - test anim cards dans annexe
 - responsive
@@ -98,3 +98,4 @@ To do 04/12/2022 :
 - annexe : header center logo
 - vérif des font-size des i
 - enlever les heights pour un best responsive
+- enlever les var des polices et modifier toutes les polices

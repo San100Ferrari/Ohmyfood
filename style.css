@@ -215,6 +215,8 @@ a:visited {
     width: 400px;
     object-fit: cover;
     position: relative;
+    left: 400px;
+    right: 25%;
   }
   .header-page .h-top i {
     font-size: 50px;
@@ -378,19 +380,20 @@ header input {
   position: relative;
 }
 .restaurants .r-card .r-like i {
-  padding: 20px;
+  position: absolute;
+  right: 0;
 }
-.restaurants .r-card .r-like i .spandb {
-  display: block;
+.restaurants .r-card .r-like i .fa-regular {
+  opacity: 1;
 }
-.restaurants .r-card .r-like i .spandb:hover {
-  display: none;
+.restaurants .r-card .r-like i .fa-regular:hover {
+  opacity: 0;
 }
-.restaurants .r-card .r-like i .spandn {
-  display: none;
+.restaurants .r-card .r-like i .fa-solid {
+  opacity: 0;
 }
-.restaurants .r-card .r-like i .spandn:hover {
-  display: block;
+.restaurants .r-card .r-like i .fa-solid:hover {
+  opacity: 1;
   color: #9356DC;
 }
 .restaurants .r-card .rhp {
@@ -492,9 +495,6 @@ header input {
 /*----------------------------------------------*/
 /*Home desktop*/
 @media only screen and (min-width: 1024px) {
-  .header img {
-    height: 80px;
-  }
   .header .localisation-search {
     height: 70px;
     display: flex;

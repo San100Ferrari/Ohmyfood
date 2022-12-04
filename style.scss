@@ -159,17 +159,18 @@ header {
             justify-content: space-between;
             position: relative;
             i {
-                padding: 20px;
-                .spandb {
-                    display: block;
+                position: absolute;
+                right: 0;
+                .fa-regular {
+                    opacity: 1;
                     &:hover {
-                        display: none;
+                        opacity: 0;
                     }
                 }
-                .spandn {
-                    display: none;
+                .fa-solid {
+                    opacity: 0;
                     &:hover {
-                        display: block;
+                        opacity: 1;
                         color: $cprimary;
                     }
                 }
@@ -290,9 +291,6 @@ header {
 
 @media only screen and (min-width:1024px) {
     .header {
-        img {
-            height: 80px;
-        }
         .localisation-search {
             height: 70px;
             display: flex;
