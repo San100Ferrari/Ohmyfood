@@ -41,18 +41,19 @@
         align-items: center;
         right: 2.5%;
         left: 2.5%;
+        font-family: 'Shrikhand', sans-serif;
     }
     .h2-page {
         font-weight: bold;
         font-size: $h50;
-        font-family: $plt;
+        font-family: 'Shrikhand', sans-serif;
     }
     .h3-page {
         margin-top: 20px;
         color: grey;
         font-size: 20px;
         padding: 10px;
-        font-family: $plt;
+        font-family: 'Shrikhand', sans-serif;
     }
     .sect-page {
         display: flex;
@@ -73,6 +74,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: 'Roboto', sans-serif;
     }
     .card-page {
         background-color: white;
@@ -84,10 +86,12 @@
     }
     .h4-page {
         font-weight: bold;
+        font-family: 'Shrikhand', sans-serif;
     }
     .para-page {
         display: flex;
         justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -97,7 +101,7 @@
     padding: 20px;
     h2 {
         width: 40%;
-        font-family: $plt;
+        font-family: 'Shrikhand', sans-serif;
         color: white;
         font-size: $h30;
         font-weight: bold;
@@ -154,7 +158,7 @@
         }
         p {
             font-size: $h20;
-            font-family: $ptext;
+            font-family: 'Roboto', sans-serif;
         }
         .command-btn {
             height: 70px;

@@ -77,6 +77,7 @@ a:visited {
   align-items: center;
   right: 2.5%;
   left: 2.5%;
+  font-family: "Shrikhand", sans-serif;
 }
 .m-page .h2-page {
   font-weight: bold;
@@ -109,6 +110,7 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 .m-page .card-page {
   background-color: white;
@@ -120,10 +122,12 @@ a:visited {
 }
 .m-page .h4-page {
   font-weight: bold;
+  font-family: "Shrikhand", sans-serif;
 }
 .m-page .para-page {
   display: flex;
   justify-content: space-between;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer {
@@ -347,6 +351,7 @@ header input {
   font-weight: bold;
   padding-top: 20px;
   margin-bottom: 10px;
+  font-family: "Shrikhand", sans-serif;
 }
 .restaurants .r-card {
   position: relative;
@@ -366,6 +371,7 @@ header input {
   padding: 10px;
   text-align: center;
   border-radius: 5px;
+  font-family: "Roboto", sans-serif;
 }
 .restaurants .r-card img {
   object-fit: cover;
@@ -403,6 +409,7 @@ header input {
 }
 .restaurants .r-card .rhp .r-h3 {
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer {
