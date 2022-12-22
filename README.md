@@ -99,3 +99,9 @@ To do 04/12/2022 :
 - vérif des font-size des i
 - enlever les heights pour un best responsive
 - enlever les var des polices et modifier toutes les polices
+
+05/12/2022
+- revoir pour les hearts
+- revérifier que toutes les polices sont bien
+- test : voir pour faire un décalage
+- 
